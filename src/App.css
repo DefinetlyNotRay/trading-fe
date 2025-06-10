@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+	max-width: 1200px;
+}
+
+pre {
+	background-color: #f8f9fa;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.table-responsive {
+	overflow-x: auto;
+}
