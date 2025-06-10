@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./index.css";
 import axios from "axios";
-const API_URL = "trading-be-production.up.railway.app";
+const API_URL = "https://67c7-27-131-1-0.ngrok-free.app";
 
 function ConfigForm() {
 	const [config, setConfig] = useState({

@@ -12,7 +12,7 @@ import {
 	Loader2,
 } from "lucide-react";
 import axios from "axios";
-const API_URL = "trading-be-production.up.railway.app";
+const API_URL = "https://67c7-27-131-1-0.ngrok-free.app";
 
 function OrderList() {
 	const [orders, setOrders] = useState([]);
