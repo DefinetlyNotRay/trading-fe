@@ -12,7 +12,7 @@ import {
 	Loader2,
 } from "lucide-react";
 import axios from "axios";
-const API_URL = "trading-4tknrkxcb-rays-projects-729a241b.vercel.app";
+const API_URL = "trading-be-production.up.railway.app";
 
 function OrderList() {
 	const [orders, setOrders] = useState([]);

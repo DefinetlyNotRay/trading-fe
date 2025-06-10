@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./index.css";
 import axios from "axios";
-const API_URL = "trading-4tknrkxcb-rays-projects-729a241b.vercel.app";
+const API_URL = "trading-be-production.up.railway.app";
 
 function ConfigForm() {
 	const [config, setConfig] = useState({
