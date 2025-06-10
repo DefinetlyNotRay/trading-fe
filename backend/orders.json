@@ -1,0 +1,10 @@
+{
+	"timestamp": "2024-06-10T10:30:00Z",
+	"symbol": "BTCUSDT",
+	"action": "BUY",
+	"price_entry": "67,450.00",
+	"tp_price": "68,800.00",
+	"sl_price": "66,780.00",
+	"leverage": "10x",
+	"timeframe": "5m"
+}
