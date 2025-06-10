@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import "./index.css";
 import axios from "axios";
-const API_URL = "https://67c7-27-131-1-0.ngrok-free.app";
+const API_URL = "http://localhost:5000";
 
 function ConfigForm() {
 	const [config, setConfig] = useState({

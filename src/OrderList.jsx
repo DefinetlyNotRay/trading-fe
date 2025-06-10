@@ -12,7 +12,8 @@ import {
 	Loader2,
 } from "lucide-react";
 import axios from "axios";
-const API_URL = "https://67c7-27-131-1-0.ngrok-free.app";
+// Note: axios would normally be imported, but for demo purposes we'll simulate API calls
+const API_URL = "http://localhost:5000";
 
 function OrderList() {
 	const [orders, setOrders] = useState([]);
