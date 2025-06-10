@@ -56,17 +56,9 @@ function App() {
 								</p>
 							</div>
 						</div>
-						<div className="flex items-center space-x-4">
-							<div className="flex items-center space-x-2 px-4 py-2 bg-green-100 rounded-full">
-								<div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-								<span className="text-sm font-medium text-green-800">
-									Bot Aktif
-								</span>
-							</div>
-							<div className="flex items-center space-x-2 text-gray-600">
-								<Activity className="w-5 h-5" />
-								<span className="text-sm font-medium">Live Trading</span>
-							</div>
+						<div className="flex items-center space-x-2 text-gray-600">
+							<Activity className="w-5 h-5" />
+							<span className="text-sm font-medium">Live Trading</span>
 						</div>
 					</div>
 				</div>
