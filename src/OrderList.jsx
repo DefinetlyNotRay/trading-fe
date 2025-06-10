@@ -12,8 +12,7 @@ import {
 	Loader2,
 } from "lucide-react";
 import axios from "axios";
-// Note: axios would normally be imported, but for demo purposes we'll simulate API calls
-const API_URL = "http://localhost:5000";
+const API_URL = "trading-4tknrkxcb-rays-projects-729a241b.vercel.app";
 
 function OrderList() {
 	const [orders, setOrders] = useState([]);

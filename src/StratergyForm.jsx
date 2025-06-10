@@ -10,8 +10,8 @@ import {
 	DollarSign,
 } from "lucide-react";
 import "./index.css";
-// Note: axios would normally be imported, but for demo purposes we'll simulate API calls
-const API_URL = "http://localhost:5000";
+import axios from "axios";
+const API_URL = "trading-4tknrkxcb-rays-projects-729a241b.vercel.app";
 
 function ConfigForm() {
 	const [config, setConfig] = useState({
@@ -33,8 +33,7 @@ function ConfigForm() {
 
 	const fetchConfig = async () => {
 		try {
-			// Simulated API call - replace with actual axios call
-			const response = { data: config };
+			const response = await axios.get(`${API_URL}/config`);
 			setSavedConfig(response.data);
 			setConfig(response.data);
 		} catch (error) {
@@ -53,8 +52,7 @@ function ConfigForm() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			// Simulated API call - replace with actual axios call
-			// await axios.post(`${API_URL}/config`, config);
+			await axios.post(`${API_URL}/config`, config);
 			setMessage("Konfigurasi berhasil disimpan!");
 			fetchConfig();
 			setTimeout(() => setMessage(""), 3000);
