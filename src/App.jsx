@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Bot, Settings, BarChart3, TrendingUp, Activity } from "lucide-react";
-import ConfigForm from "./StratergyForm";
+import ConfigForm from "./ConfigForm";
 import OrderList from "./OrderList";
 import "./index.css";
 function App() {

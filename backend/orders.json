@@ -1,22 +1,22 @@
 [
-  {
-    "symbol": "BTCUSDT",
-    "action": "BUY",
-    "price_entry": "108403.40",
-    "tp_price": "110571.47",
-    "sl_price": "107319.37",
-    "leverage": "11x",
-    "timeframe": "5m",
-    "timestamp": "2025-06-11T22:55:05.096Z"
-  },
-  {
-    "symbol": "BTCUSDT",
-    "action": "SELL",
-    "price_entry": "108417.73",
-    "tp_price": "106249.38",
-    "sl_price": "109501.91",
-    "leverage": "11x",
-    "timeframe": "5m",
-    "timestamp": "2025-06-11T22:55:35.439Z"
-  }
+	{
+		"symbol": "BTCUSDT",
+		"action": "BUY",
+		"price_entry": "108403.40",
+		"tp_price": "110571.47",
+		"sl_price": "107319.37",
+		"leverage": "11x",
+		"timeframe": "5m",
+		"timestamp": "2025-06-11T22:55:05.096Z"
+	},
+	{
+		"symbol": "BTCUSDT",
+		"action": "SELL",
+		"price_entry": "108417.73",
+		"tp_price": "106249.38",
+		"sl_price": "109501.91",
+		"leverage": "11x",
+		"timeframe": "5m",
+		"timestamp": "2025-06-11T22:55:35.439Z"
+	}
 ]

@@ -28,7 +28,7 @@ function OrderList() {
 			// Data yang berada di orders.json hanya data dummy/hardcoded
 			setLoading(true);
 			const response = await axios.get(`${API_URL}/orders`);
-			setOrders([response.data]);
+			setOrders(response.data);
 			setLoading(false);
 		} catch (error) {
 			console.error("Error fetching orders:", error);
