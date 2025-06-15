@@ -1,0 +1,10 @@
+{
+	"symbol": "BTCUSDT",
+	"plusDI": 25,
+	"minusDI": 20,
+	"adx": 30,
+	"takeProfit": 2,
+	"stopLoss": 1,
+	"leverage": 10,
+	"timeframe": "5m"
+}
